@@ -1,0 +1,220 @@
+body {
+    margin: 0;
+
+    background: #fff;
+
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+
+/* Page
+===================*/
+
+.page {
+    width: 100%;
+    height: 100vh;
+
+    background: url(../img/bg.jpg) no-repeat center;
+    background-size: cover;
+}
+
+/* Section
+===================*/
+
+.section {
+    padding-top: 100px;
+}
+
+
+/* Container
+===================*/
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    height: 560px;
+    position: relative;
+
+    background-size: cover;
+    background-color: #000000;
+}
+
+/* Main
+===================*/
+
+.main {
+    width: 1068px;
+    height: 560px;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    background: url(../img/bgpage.jpg);
+    background-size: cover;
+}
+
+/* Header
+===================*/
+
+.header {
+    width: 100%;
+    height: 100px;
+    padding-top: 20px;
+    position: relative;
+}
+
+.header__title {
+    padding-right: 20px;
+
+    text-align: center;
+    font-weight: 400;
+}
+
+/* Burger/Button
+===================*/
+
+.button {
+    background: none;
+    border: none;
+
+    cursor: pointer;
+}
+
+.button--burger {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.button--search {
+    position: absolute;
+    top: 35px;
+    left: 50px;
+}
+
+.button--google {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 9px;
+    padding-right: 9px;
+
+    position: absolute;
+    top: 352px;
+    left: 50px;
+
+    border: 1px rgba(62, 62, 62) solid;
+    border-radius: 50%;
+}
+
+.button--twiter {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 9px;
+    padding-right: 9px;
+
+    position: absolute;
+    top: 242px;
+    left: 50px;
+
+    border: 1px rgba(62, 62, 62) solid;
+    border-radius: 50%;
+}
+
+.button--facebook {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 14px;
+    padding-right: 14px;
+
+    position: absolute;
+    top: 292px;
+    left: 45px;
+
+    border: 1px #fff solid;
+    border-radius: 50%;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.burger__icon {
+    width: 20px;
+    height: 20px;
+}
+
+/* Main
+===================*/
+
+.middle__main {
+    padding-top: 142px;
+    padding-left: 90px;
+    margin-bottom: 138px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    font-weight: 100;
+    font-size: 32px;
+    letter-spacing: 138px;
+}
+
+/* Footer
+===================*/
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__box {
+    margin-right: 20px;
+    padding: 10px;
+
+    transition: border .2s linear;
+}
+
+.footer__box:hover {
+    border: 1px #fff solid;
+}
+
+
+.footer__title {
+    padding: 10px;
+
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.footer__title h4 {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
